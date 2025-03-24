@@ -168,8 +168,5 @@
         }
       ]
     }
-  ],
-  "routes": [
-    {"src": "/api/v2/:url*","dest": "https://jiuran.fun/api/v2/:url*"}
   ]
 }
