@@ -21,8 +21,8 @@ module.exports = {
       host: '60.205.234.149',
       ref: 'origin/master',
       repo: 'git@github.com:JiuRanYa/Shiro.git',
-      path: '/site/shiro',
-      'pre-setup': 'rm -rf /site/shiro/source',
+      path: '/site/shiro/source/shiro',
+      'pre-setup': 'rm -rf /site/shiro/source/shiro',
       'post-deploy': 'npm install && npm run build && pm2 reload ecosystem.config.cjs',
       'pre-deploy-local': '',
       'ssh_options': 'StrictHostKeyChecking=no'
