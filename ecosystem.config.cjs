@@ -15,14 +15,17 @@ module.exports = {
       log_date_format: 'YYYY-MM-DD HH:mm:ss',
     },
   ],
-  deploy : {
-    production : {
-      user : 'root', // 以什么身份登录远程服务器，这里是node用户登录，建议使用root用户，权限更大
-      host : '60.205.234.149', // 远程服务器地址，需要配ssh登录
-      ref  : 'origin/master', // 需要部署的分支
-      repo : 'git@github.com:JiuRanYa/Shiro.git', // 代码git地址，需要配ssh登录
-      path : '/site/shiro', // 文件存放的地址
-      'post-deploy' : 'npm install && npm run build' // 拉完代码需要执行的构建命令
+  deploy: {
+    production: {
+      user: 'root',
+      host: '60.205.234.149',
+      ref: 'origin/master',
+      repo: 'git@github.com:JiuRanYa/Shiro.git',
+      path: '/site/shiro',
+      'pre-setup': 'rm -rf /site/shiro/source',
+      'post-deploy': 'npm install && npm run build && pm2 reload ecosystem.config.cjs',
+      'pre-deploy-local': '',
+      'ssh_options': 'StrictHostKeyChecking=no'
     }
   }
 }
