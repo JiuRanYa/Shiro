@@ -170,6 +170,6 @@
     }
   ],
   "routes": [
-    {"src": "/api/v2/:url*","dest": "https://jiuran.fun/:url*"}
+    {"src": "/api/v2/:url*","dest": "https://jiuran.fun/api/v2/:url*"}
   ]
 }
