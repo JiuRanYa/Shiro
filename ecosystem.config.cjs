@@ -7,7 +7,7 @@ module.exports = {
       repo: 'git@github.com:JiuRanYa/Shiro.git',
       path: '/site/Shiro',
       'pre-setup': '',
-      'post-deploy': 'npm install && npm run build',
+      'post-deploy': 'pnpm install && pnpm run build',
       'pre-deploy-local': '',
       'ssh_options': 'StrictHostKeyChecking=no'
     }
