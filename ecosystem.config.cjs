@@ -3,7 +3,7 @@ module.exports = {
     production: {
       user: 'root',
       host: '60.205.234.149',
-      ref: 'origin/master',
+      ref: 'origin/main',
       repo: 'git@github.com:JiuRanYa/Shiro.git',
       path: '/site/Shiro',
       'pre-setup': '',
