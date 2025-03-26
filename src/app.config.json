@@ -16,11 +16,6 @@
             "name": "关于我",
             "href": "/about-me"
           },
-          {
-            "name": "关于此项目",
-            "href": "https://github.com/innei/Shiro",
-            "external": true
-          }
         ]
       },
       {
@@ -34,11 +29,6 @@
             "name": "友链",
             "href": "/friends"
           },
-          {
-            "name": "监控",
-            "href": "https://status.shizuri.net/status/main",
-            "external": true
-          }
         ]
       },
       {
@@ -119,14 +109,13 @@
     "module": {
       "donate": {
         "enable": true,
-        "link": "https://afdian.net/@Innei",
         "qrcode": [
-          "https://cdn.jsdelivr.net/gh/Innei/img-bed@master/20191211132347.png",
-          "https://cdn.innei.ren/bed/2023/0424213144.png"
+          "https://jiuran.fun/api/v2/objects/icon/oej0ar3poat0luw7bt.jpg",
+          "https://jiuran.fun/api/v2/objects/icon/h2hw6jkxhsjn5nm2tg.jpg"
         ]
       },
       "bilibili": {
-        "liveId": 1434499
+        "liveId": 1376675981
       }
     }
   }
