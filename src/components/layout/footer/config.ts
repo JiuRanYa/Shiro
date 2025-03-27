@@ -10,11 +10,6 @@ export const defaultLinkSections: LinkSection[] = [
         name: '关于我',
         href: '/about-me',
       },
-      {
-        name: '关于此项目',
-        href: 'https://github.com/innei/Shiro',
-        external: true,
-      },
     ],
   },
   {
@@ -28,11 +23,6 @@ export const defaultLinkSections: LinkSection[] = [
         name: '友链',
         href: '/friends',
       },
-      {
-        name: '监控',
-        href: 'https://status.shizuri.net/status/main',
-        external: true,
-      },
     ],
   },
   {
@@ -44,12 +34,12 @@ export const defaultLinkSections: LinkSection[] = [
       },
       {
         name: '发邮件',
-        href: 'mailto:i@innei.in',
+        href: 'siyuantong7@gmail.com',
         external: true,
       },
       {
         name: 'GitHub',
-        href: 'https://github.com/innei',
+        href: 'https://github.com/JiuRanYa',
         external: true,
       },
     ],
