@@ -174,7 +174,8 @@
     },
     "patchedDependencies": {
       "next": "patches/next.patch"
-    }
+    },
+    "allowNonAppliedPatches": true
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec lint-staged"
