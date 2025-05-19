@@ -27,6 +27,10 @@ ${!!item.published_at && `<lastmod>${item.published_at || 'N/A'}</lastmod>`}
 
     .join('')}
   </urlset>
+  <follow_challenge>
+    <feedId>147180488608608256</feedId>
+    <userId>42084482239565824</userId>
+  </follow_challenge>
   `.trim()
   return new Response(xml, {
     headers: {
